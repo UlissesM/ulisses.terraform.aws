@@ -21,11 +21,7 @@ output "api_gateway_endpoints" {
 output "dynamodb_table_names" {
   description = "Names of all DynamoDB tables"
   value = {
-    users     = module.dynamodb_users.table_name
-    products  = module.dynamodb_products.table_name
-    orders    = module.dynamodb_orders.table_name
-    inventory = module.dynamodb_inventory.table_name
-    payments  = module.dynamodb_payments.table_name
+    for service, dynamodb in module.dynamodb_tables : service =>  dynamodb.table_name
   }
 }
 
