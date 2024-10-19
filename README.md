@@ -248,3 +248,28 @@ To enable team collaboration and maintain state consistency, configure a remote 
 
 - Implement more robust monitoring and alerting using CloudWatch
 - Implement CI/CD pipelines for automated deployments
+
+## Additional Info
+
+### Contributions to AWS Community
+
+I have actively contributed to the AWS developer community by identifying and reporting issues:
+
+- **API Gateway Integration Issue in AWS CDK**
+  - I was responsible for identifying and reporting a significant issue with API Gateway integrations in AWS CDK.
+  - Issue Link: [GitHub Issue #12698](https://github.com/aws/aws-cdk/issues/12698)
+
+- **Impact on AWS CDK Versions**
+  - The issue I identified was addressed in subsequent AWS CDK releases:
+    - [v1.87.1](https://github.com/aws/aws-cdk/releases/tag/v1.87.1)
+    - [v1.88.0](https://github.com/aws/aws-cdk/releases/tag/v1.88.0)
+    
+## AWS CERT
+
+1. **AWS Certified Data Analytics - Specialty**
+   - Validation Number: J5HJT991VBEQ1PWK
+   - Verify at: [AWS Certification Validation](https://cp.certmetrics.com/amazon/en/public/verify/credential/J5HJT991VBEQ1PWK)
+
+2. **AWS Certified Solutions Architect - Associate**
+   - Validation Number: SK3KWVPDJ2FEQ8GL
+   - Verify at: [AWS Certification Validation](https://cp.certmetrics.com/amazon/en/public/verify/credential/SK3KWVPDJ2FEQ8GL)
